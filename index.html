@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Техномедиа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/clients.js"></script>
+
+</head>
+<body>
+        <div class="body_container_about">
+            <div class="body_container_title"> Примеры моих работ в 3D-Max </div>
+            <div class="body_container_about_slider">
+                <div class="slider">
+                    <div class="slider_foto">
+                        <div class="slide">
+                            <img src="img/1.jpg" class="img_slider_next img_slider">
+                        </div>
+        
+                        <div class="slide">
+                            <img src="img/2.jpg" class="img_slider_wrapper img_slider">
+                        </div>
+        
+                        <div class="slide">
+                            <img src="img/3.jpg" class="img_slider_previous img_slider">
+                        </div>
+        
+                        <button class="btn_left" onclick="lfupdate()">
+                            <div class="icon">
+                                
+                            </div>
+                        </button>
+        
+                        <button class="btn_right" onclick="rtupdate()">
+                            <div class="icon">
+                                
+                            </div>
+                        </button>
+                    </div>
+                    <div class="slider_txt">
+                        <hr class="slid_line">
+                        <div class="text_slide"> Я занимаюсь созданием графического дизайна квартир и домов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_container_projects">
+            <div class="body_container_title"> Услуги </div>
+            <div class="projects">
+                <ul class="projects_container">
+                    <input type="checkbox" id="load-more"/>
+                    <li class="projects_container_box">
+                        <div class="body_container_projects_content_box">
+                            <div class="body_container_projects_content_box_title"> №1</div>
+                            <div class="body_container_projects_content_box_description"> В стоимость входит графический рисунок  </div>
+                            <div class="body_container_projects_content_box_tools">
+                                <ul class="body_container_projects_content_box_tools_list"> Цена
+                                    <li class="project_tools">100$</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="projects_container_box">
+                        <div class="body_container_projects_content_box">
+                            <div class="body_container_projects_content_box_title"> №2 </div>
+                            <div class="body_container_projects_content_box_description"> В стоимость входит графический рисунок, чертешь  </div>
+                            <div class="body_container_projects_content_box_tools">
+                                <ul class="body_container_projects_content_box_tools_list"> Цена
+                                    <li class="project_tools">150$</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="projects_container_box">
+                        <div class="body_container_projects_content_box">
+                            <div class="body_container_projects_content_box_title"> №3 </div>
+                            <div class="body_container_projects_content_box_description"> В стоимость входит графический рисунок, чертеж, расчет площади  </div>
+                            <div class="body_container_projects_content_box_tools">
+                                <ul class="body_container_projects_content_box_tools_list"> Цена
+                                    <li class="project_tools">200$</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="projects_container_box">
+                        <div class="body_container_projects_content_box">
+                            <div class="body_container_projects_content_box_title">№4</div>
+                            <div class="body_container_projects_content_box_description"> В стоимость входит графический рисунок, чертеж, расчет площади, вся информация на внешнем насителе</div>
+                            <div class="body_container_projects_content_box_tools">
+                                <ul class="body_container_projects_content_box_tools_list"> Цена
+                                    <li class="project_tools">250$</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <label class="projects_container_button_lookmore" for="load-more">
+                    
+                    <div class="btn_lookmore">Показать ещё</div>
+                </label>
+            </div>
+            </div>
+        <div class="body_container_contacts">
+            <div class="body_container_title"> Контакты</div>
+            <div class="body_container_contacts_box">
+                <div class="body_container_contacts_box_reqest"> 
+                    <div class="request_container">
+                        <input type="text" class=" request_inp request_fullname" placeholder="Фамилия Имя...">
+                        <input type="email" class="request_inp request_email" placeholder="Email...">
+                        <input type="text" class="request_inp request_organisation" placeholder="Имя организации\Юр.Лицо...">
+                        <div class="request_inp body_container_contacts_box_request_message">
+                            <textarea rows="8" type="text" class="request_message" placeholder="Сообщение..."></textarea>
+                            <div class="request_inp request_message_button"> Отправить заявку </div>
+                        </div> 
+                    </div>               
+                </div>
+                <div class="body_container_contacts_box_info">
+                    <div class="body_container_contacts_box_info_article">
+                        <div class="info_adress_title"> Адрес </div>
+                        <div class="info_adress_text">г. Петрозаводск
+                           </div>
+                    </div>
+                        <div class="info_director_email">Почта: <a href="">egorik228@gmail.com</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_container_footer">
+            <div class="body_container_footer_text"> </div>
+            <div class="body_container_footer_undertitle"></div>
+        </div>
+    <script src="slider_JS.js"></script>
+</body>
+</html>
